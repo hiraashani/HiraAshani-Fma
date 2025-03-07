@@ -1,0 +1,52 @@
+.Box1 {
+
+    position: relative;
+    height: 100px;
+    width: 450px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 6px 11px 52px 18px rgba(0,0,0,0.75);
+    margin-top: 20px;
+    
+}
+
+
+
+.X {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+.title {
+
+   position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    top: -100;
+}
+
+.video {
+
+    
+position: fixed;
+width: 250px;
+bottom: 20px;
+left: 1000px;
+border-style: dotted;
+border: 15px;
+border-color: black;
+margin: 20px;
+
+}
+
+
+
+
+
