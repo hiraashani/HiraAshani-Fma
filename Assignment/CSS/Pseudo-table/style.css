@@ -1,0 +1,10 @@
+
+#odd:nth-child(odd) {
+    color: white;
+    background-color: darkgreen;
+}
+
+#even:nth-child(even) {
+    color: white;
+    background-color: green;
+}
