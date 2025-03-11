@@ -1,0 +1,292 @@
+body {
+    margin: 1em 10% 0 10%;
+    background-image: url(Images/Backround\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    cursor: url('Images/icons8-lavender-48.png'), auto;
+    font-family: cursive;
+}
+
+#button1 {
+    background-color: rgb(164, 88, 235);
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+#button1 :hover {
+    background-color: rgb(140, 0, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: black;
+}
+
+
+.header {
+    text-align: center;
+
+}
+
+.nav {
+    text-align: center;
+}
+
+#line {
+    text-align: center;
+    background-color: black;
+    height: 20px;
+    width: 3px;
+
+}
+
+.Box11 {
+    background-color: rgb(205, 151, 226);
+    align-content: center;
+    border-radius: 10px;
+
+}
+
+.Box11:hover {
+    background-color: rgb(227, 193, 255);
+    border: solid black;
+    align-content: center;
+    border-style: dashed;
+    border-radius: 10px;
+
+}
+
+.Box21 {
+    background: radial-gradient(circle, rgba(106, 56, 187, 1) 0%, rgba(168, 148, 233, 1) 100%);
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.Box21:hover {
+    background: radial-gradient(circle, rgba(168, 148, 224, 1) 0%, rgba(106, 56, 187, 1) 100%);
+    text-align: center;
+    border: solid black;
+    border-style: dashed;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#pfp {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    border-color: solid blueviolet;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin: 20px;
+}
+
+#school1 {
+    background-color: rgb(181, 117, 241);
+    border-radius: 10px;
+    margin: 35px;
+
+
+
+}
+
+#school2 {
+    background-color: rgb(139, 89, 187);
+    border-radius: 10px;
+    margin: 35px;
+
+
+
+}
+
+#school3 {
+    background-color: rgb(41, 24, 56);
+    border-radius: 10px;
+    margin: 35px;
+
+
+
+}
+
+.message {
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.message:hover {
+    background-color: rgb(112, 37, 182);
+    border-style: dotted;
+    border-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+#footer {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#footer:hover {
+    background-color: rgb(120, 53, 184);
+    padding: 10px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-style: dashed;
+
+}
+
+.projectsindex {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.projectsindex:hover {
+
+    background-color: rgb(74, 41, 105);
+    padding: 10px;
+    border-style: dotted;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 20px;
+}
+
+.Skills {
+    background-color: rgb(199, 125, 255);
+    border-radius: 10px;
+   margin-left: 10px;
+
+}
+
+.Skills :hover {
+    background-color: rgb(174, 112, 221);
+    border-radius: 10px;
+    content: center;
+    border: solid black;
+    border-style: dotted;
+
+}
+table {
+    margin-left: 350px;
+}
+
+#p1 {
+    background-color: rgb(199, 125, 255);
+
+}
+
+#p1 :hover {
+    background-color: rgb(204, 180, 223);
+
+    border: solid black;
+    border-style: dotted;
+}
+
+#message1 {
+    background-color: rgb(157, 113, 232);
+    color: white
+}
+
+textarea {
+    border: solid black;
+    border-style: double;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#message1 :hover {
+    background-color: rgb(185, 145, 255);
+    border: solid black;
+    border-radius: 10px;
+    border-style: dotted;
+
+
+}
+
+.socialmedia {
+    background-color: rgb(183, 39, 234);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#web {
+    background-color: rgb(183, 39, 234);
+    cursor: pointer;
+
+}
+
+#web :hover {
+    background-color: rgb(216, 159, 236);
+    border: solid black;
+    border-style: dotted;
+    cursor: pointer;
+
+}
+
+#Contact {
+    background: none;
+}
+
+#Contact:hover {
+    background-color: rgb(216, 159, 236);
+    border: solid black;
+    border-style: dotted;
+
+}
+
+
+.project-1 {
+    background-color: rgb(157, 78, 221);
+    border-radius: 10px;
+}
+
+.project-2 {
+    background-color: rgb(157, 78, 221);
+    border-radius: 10px;
+
+}
+
+.project-3 {
+    background-color: rgb(199, 125, 255);
+    border-radius: 10px;
+}
+
+.project-1 :hover {
+    background-color: rgb(196, 125, 253);
+    border: solid black;
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+.project-2 :hover{
+    background-color: rgb(157, 78, 221);
+    border: solid black;
+    border-radius: 10px;
+    border-style: dotted;
+
+}
+
+.project-3 :hover {
+    background-color: rgb(205, 152, 245);
+    border: solid black;
+    border-radius: 10px;
+    border-style: dotted;
+}
