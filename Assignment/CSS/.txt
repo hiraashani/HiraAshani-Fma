@@ -1,0 +1,173 @@
+Level One:
+#pond {
+  display: flex;
+justify-content:flex-end;
+}
+
+Level Two:
+#pond {
+  display: flex;
+justify-content:center;
+}
+
+Level Three:
+#pond {
+  display: flex;
+justify-content:space-around;
+}
+
+Level Four:
+#pond {
+  display: flex;
+justify-content:space-between;
+}
+
+Level Five:
+#pond {
+  display: flex;
+align-items:flex-end;
+}
+
+Level Six:
+#pond {
+  display: flex;
+justify-content:center;
+align-items:center;
+}
+
+Level Seven:
+#pond {
+  display: flex;
+justify-content:space-around;
+align-items:flex-end;
+}
+
+Level Eight:
+#pond {
+  display: flex;
+flex-direction:row-reverse;
+}
+
+Level Nine:
+#pond {
+  display: flex;
+flex-direction:column
+}
+
+Level Ten:
+#pond {
+  display: flex;
+justify-content:flex-end;
+flex-direction:row-reverse;
+}
+
+Level Eleven:
+#pond {
+  display: flex;
+flex-direction:column;
+justify-content:flex-end;
+}
+
+Level Twelve:
+#pond {
+  display: flex;
+flex-direction:column-reverse;
+justify-content:space-between;
+}
+
+Level Thirteen:
+#pond {
+  display: flex;
+flex-direction:row-reverse;
+align-items:flex-end;
+justify-content:center;
+}
+
+Level Fourteen:
+#pond {
+  display: flex;
+}
+
+.yellow {
+order:2
+}
+
+Level Fifteen:
+#pond {
+  display: flex;
+}
+
+.red {
+order:-1;
+}
+
+Level Sixteen:
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+align-self:flex-end;
+}
+
+Level Seventeen:
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+align-self:flex-end;
+order:1;
+}
+
+Level Eightteen:
+#pond {
+  display: flex;
+flex-wrap:wrap
+}
+
+Level Nineteen:
+#pond {
+  display: flex;
+flex-direction:column;
+flex-wrap:wrap;
+}
+
+Level Twenty:
+#pond {
+  display: flex;
+flex-flow:column wrap;
+}
+
+Level Twenty-One:
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+align-content:flex-start;
+}
+
+Level Twenty-Two:
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+align-content:flex-end;
+}
+
+Level Twenty-Three:
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+flex-direction:column-reverse;
+align-content:center;
+}
+
+Level Twenty-Four:
+#pond {
+  display: flex;
+flex-flow:column-reverse;
+flex-wrap:wrap-reverse;
+align-content:space-between;
+justify-content:center;
+}
