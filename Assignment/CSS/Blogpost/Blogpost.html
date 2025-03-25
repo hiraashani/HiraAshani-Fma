@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    body {
+      display: flex;
+    }
+
+    .continar {
+      display: flex;
+      height: 100vh;
+      width: 200vh;
+
+    }
+
+    aside {
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 20%;
+      background-color: rgb(10, 42, 71);
+      justify-content: center;
+      align-items: flex-end;
+      text-align: right;
+      padding: 20px;
+      height: 640px;
+
+    }
+
+    .sample {
+      color: white;
+      font-size: 60px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0%;
+
+
+    }
+
+    .sample2 {
+      color: rgba(255, 255, 255, 0.562);
+      margin: 0%;
+
+
+    }
+
+    .login {
+      color: white;
+      background: none;
+      border: 4px solid rgba(255, 255, 255, 0.562);
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+
+    main {
+      margin: 50px;
+    }
+
+    hr {
+      width: 900px;
+      display: flex;
+      align-items: center;
+    }
+
+    .ppost {
+      opacity: 50%;
+    }
+
+    .apinnedpost {
+      font-size: 50px;
+      margin-top: 0%;
+    }
+
+    .css {
+      background-color: rgb(90, 186, 89);
+      color: white;
+      padding: 2px;
+      margin-top: 0%;
+    }
+
+    .html {
+      background-color: rgb(77, 133, 209);
+      color: white;
+      padding: 2px;
+      margin-top: 0%;
+    }
+
+    .johndoe {
+      color: rgb(40, 127, 181);
+      margin-top: 0%;
+    }
+
+
+    .img1 {
+   
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+
+
+
+    }
+
+    .js {
+      background-color: rgb(223, 45, 79);
+      color: white;
+      padding: 2px;
+      margin-top: 0%;
+
+    }
+
+    .comments {
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .h1pfp {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+  <title>Blogpost</title>
+</head>
+
+<body>
+  <div class="continar">
+    <aside>
+      <h1 class="sample">A sample Blog</h1>
+      <h1 class="sample2">Lorem ipsum dolor</h1>
+      <p class="login">LOG IN</p>
+    </aside>
+
+    <main>
+      <div class="comments">
+        <header>
+          <p class="ppost">PINNED POST</p>
+        </header>
+        <hr>
+        <div>
+          <div class="h1pfp">
+            <h1 class="apinnedpost">
+              A pinned post
+            </h1>
+            <img class="img1" src="images/1-intro-photo-final.jpg" alt="PFP1">
+            
+          </div>
+         <p>By <span class="johndoe">John Doe</span> under <span class="css">CSS</span> <span class="html">HTML</span>
+          </p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elitr. Est aliquid, praesentium perspiciatis unde quod
+            temporibus <br> quae similique totam
+            dolores? Quidem inventore assumenda maxime nobis adipisci vel perferendis esse
+            facilis dignissimos. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolor minima
+            cumque repellat ipsum iste tenetur delectus,<br> ea eaque nisi dignissimos distinctio laborum numquam
+            deleniti
+            cum quis. Amet, reiciendis quam!</p>
+        </div>
+      </div>
+      <div>
+        <header>
+          <p class="ppost">RECENT POST</p>
+        </header>
+        <hr>
+        <div>
+          <div class="h1pfp">
+            <h1 class="apinnedpost">
+              A recent post
+            </h1>
+            <img class="img1" src="images/thumb-1920-343061.jpg" alt="PFP2">
+          </div>
+          <p>By <span class="johndoe">Rocky Balboa</span> under <span class="js">JavaScript</span>
+          </p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elitr. Est aliquid, praesentium perspiciatis unde quod
+            temporibus <br> quae similique totam dolores?
+            Quidem inventore assumenda maxime nobis adipisci vel perferendis esse
+            facilis dignissimos. <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolor minima
+            cumque
+            repellat ipsum iste tenetur delectus,<br> ea eaque nisi dignissimos distinctio laborum numquam deleniti cum
+            quis. Amet, reiciendis quam!</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+
+</html>
