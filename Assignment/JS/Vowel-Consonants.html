@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Press Detection</title>
+</head>
+<body>
+    <h1>Press a key on your keyboard</h1>
+    <p id="msg">Waiting for key press...</p>
+
+    <script>
+        document.addEventListener("keydown", function(e) {
+            let k = e.key;
+            let m = document.getElementById("msg");
+
+
+            if (k === "Shift" || k === "Control" || k === "Alt" || k === "Meta" || k === "Enter" || k === "Backspace") {
+                m.innerText = `${k} is a special key.`;
+                return;
+            }
+
+        
+            if (k.length === 1) {
+                k = k.toLowerCase();
+                if ("aeiou".includes(k)) {
+                    m.innerText = `${k} is a vowel.`;
+                } else if ("bcdfghjklmnpqrstvwxyz".includes(k)) {
+                    m.innerText = `${k} is a consonant.`;
+                } else if ("0123456789".includes(k)) {
+                    m.innerText = `${k} is a number.`;
+                } else {
+                    m.innerText = `${k} is a symbol.`;
+                }
+            } else {
+                m.innerText = `${k} is a special key.`;
+            }
+        });
+    </script>
+</body>
+</html>

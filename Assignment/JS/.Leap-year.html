@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leap Year</title>
+</head>
+<body>
+    <script>
+     
+function isLeapYear(year) {
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+}
+
+
+const year = parseInt(prompt("Enter a year:"));
+
+if (isNaN(year)) {
+    alert("Please enter a valid year.");
+} else {
+   
+
+
+    if (isLeapYear(year)) {
+        alert(`${year} is a leap year.`);
+    } else {
+        alert(`${year} is not a leap year.`);
+    }
+}
+
+    </script>
+</body>
+</html>
