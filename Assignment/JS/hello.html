@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let greet = function(message){
+    console.log(message);
+  }
+
+
+
+   for (let i = 0; i < 10; i++) {
+    greet(`Hello there`);
+
+  }
+// 
+  function printMessage(message){
+    console.log(message)
+  }
+  printMessage(`Hello world`);
+//
+let number = parseInt(prompt("Enter number..."));
+function kilometersInto(km) {
+    let miles = km * 0.621371;
+    return miles;
+}
+let result = kilometersInto(number);
+console.log(result);
+//
+function calculateArea(radius) {
+    let area = Math.PI * radius * radius;
+    return area;
+}
+let radius = prompt("Enter the radius of the circle: ");
+let areaOfCircle = calculateArea(radius);
+console.log( areaOfCircle);
+//
+    let name = prompt("Enter first name: ");
+        let surname = prompt("Enter last name: ");
+function printName(identity){
+console.log(identity)}
+printName(`Welcome, ${name} ${surname}`)
+//
+
+    </script>
+</body>
+</html>
